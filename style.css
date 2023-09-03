@@ -1,0 +1,28 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-color: blanchedalmond;
+}
+
+#dealer-cards img {
+    width: 124px;
+    height: 189px;
+}
+
+#player-cards img {
+    width: 124px;
+    height: 189px;
+}
+
+#hit-button button {
+    width: 45px;
+    height: 15px;
+    font-size: 60px;
+}
+
+#stand-button {
+    width: 45px;
+    height: 15px;
+    font-size: 6px;  
+}
+

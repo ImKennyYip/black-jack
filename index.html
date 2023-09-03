@@ -1,25 +1,33 @@
 <!DOCTYPE html>
-<html>
+<html> 
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Black Jack</title>
-        <link rel="stylesheet" href="blackjack.css">
-        <script src="blackjack.js"></script>
+        <meta charset="utf-8">
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+        <title>BlackJack</title>
+        <link rel = "stylesheet" href = "style.css">
+        <script src = "script.js"></script>
     </head>
+        <body>
+            <h2>Dealer: <span id="dealer-sum"></span> </h2>    
+            <div id="dealer-cards">
+                <img src="/assets/images/BACK.png">
+                <img src="assets/images/3-H.png">
+            </div>
+            <br>
+            <h2>Player: <span id="player-sum"></span> </h2>
+            <div id="player-cards">
+                <img src="/assets/images/A-H.png">
+                <img src="assets/images/K-H.png">
+            </div>
+            <br>
 
-    <body>
-        <h2>Dealer: <span id="dealer-sum"></span></h2>
-        <div id="dealer-cards">
-            <img id="hidden" src="./cards/BACK.png">
-        </div>
+            <button id="hit-button" onclick="hitMe()">Hit</button>
+            <br>
+            <br>
+            
+            <button id="stand-button" onclick="stand()">Stand</button>
+            <p id="results"></p>
+            <br>
 
-        <h2>You: <span id="your-sum"></span></h2>
-        <div id="your-cards"></div>
-
-        <br>
-        <button id="hit">Hit</button>
-        <button id="stay">Stay</button>
-        <p id="results"></p>
-    </body>
+        </body>
 </html>

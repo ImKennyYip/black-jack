@@ -1,4 +1,28 @@
 body {
-    font-family: 'Roboto', sans-serif;
-    
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-color: blanchedalmond;
 }
+
+#dealer_cards img {
+    width: 100px;
+    height: 150px;
+}
+
+#player_cards img {
+    width: 100px;
+    height: 150px;
+}
+
+#hit-button button {
+    width: 45px;
+    height: 15px;
+    font-size: calc();
+}
+
+#stand-button button {
+    width: 45px;
+    height: 15px;
+    font-size: calc();  
+}
+
